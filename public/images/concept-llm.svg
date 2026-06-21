@@ -1,0 +1,36 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="llmBg" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E8FF"/>
+      <stop offset="1" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <linearGradient id="llmCore" x1="160" y1="100" x2="240" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="20" fill="url(#llmBg)"/>
+  <!-- Brain/LLM core -->
+  <circle cx="200" cy="150" r="48" fill="url(#llmCore)"/>
+  <text x="200" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">LLM</text>
+  <!-- Neural network nodes around -->
+  <g opacity="0.6">
+    <circle cx="120" cy="90" r="6" fill="#8B5CF6"/>
+    <circle cx="280" cy="90" r="6" fill="#8B5CF6"/>
+    <circle cx="100" cy="150" r="6" fill="#8B5CF6"/>
+    <circle cx="300" cy="150" r="6" fill="#8B5CF6"/>
+    <circle cx="120" cy="210" r="6" fill="#8B5CF6"/>
+    <circle cx="280" cy="210" r="6" fill="#8B5CF6"/>
+    <line x1="120" y1="90" x2="170" y2="120" stroke="#8B5CF6" stroke-width="1.5"/>
+    <line x1="280" y1="90" x2="230" y2="120" stroke="#8B5CF6" stroke-width="1.5"/>
+    <line x1="100" y1="150" x2="155" y2="150" stroke="#8B5CF6" stroke-width="1.5"/>
+    <line x1="300" y1="150" x2="245" y2="150" stroke="#8B5CF6" stroke-width="1.5"/>
+    <line x1="120" y1="210" x2="170" y2="180" stroke="#8B5CF6" stroke-width="1.5"/>
+    <line x1="280" y1="210" x2="230" y2="180" stroke="#8B5CF6" stroke-width="1.5"/>
+  </g>
+  <!-- Input/Output labels -->
+  <rect x="40" y="140" width="50" height="20" rx="10" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="65" y="154" text-anchor="middle" font-size="10" fill="#6D28D9" font-weight="600">输入</text>
+  <rect x="310" y="140" width="50" height="20" rx="10" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="1.5"/>
+  <text x="335" y="154" text-anchor="middle" font-size="10" fill="#6D28D9" font-weight="600">输出</text>
+</svg>

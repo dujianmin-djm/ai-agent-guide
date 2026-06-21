@@ -1,0 +1,45 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ragBg" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="ragCore" x1="160" y1="100" x2="240" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="20" fill="url(#ragBg)"/>
+  <!-- Document stack -->
+  <g>
+    <rect x="60" y="80" width="60" height="70" rx="6" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
+    <line x1="70" y1="95" x2="110" y2="95" stroke="#0EA5E9" stroke-width="1.5" opacity="0.5"/>
+    <line x1="70" y1="105" x2="110" y2="105" stroke="#0EA5E9" stroke-width="1.5" opacity="0.5"/>
+    <line x1="70" y1="115" x2="100" y2="115" stroke="#0EA5E9" stroke-width="1.5" opacity="0.5"/>
+    <line x1="70" y1="125" x2="110" y2="125" stroke="#0EA5E9" stroke-width="1.5" opacity="0.5"/>
+    <line x1="70" y1="135" x2="95" y2="135" stroke="#0EA5E9" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <!-- Arrow -->
+  <path d="M130 115 L170 115" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M165 110 L175 115 L165 120" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- RAG core -->
+  <rect x="180" y="90" width="80" height="50" rx="10" fill="url(#ragCore)"/>
+  <text x="220" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">RAG</text>
+  <!-- Arrow -->
+  <path d="M270 115 L310 115" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M305 110 L315 115 L305 120" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Output answer -->
+  <g>
+    <rect x="320" y="80" width="60" height="70" rx="6" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="2"/>
+    <text x="350" y="115" text-anchor="middle" font-size="20">💡</text>
+    <text x="350" y="135" text-anchor="middle" font-size="9" fill="#0284C7" font-weight="600">精准回答</text>
+  </g>
+  <!-- Bottom labels -->
+  <text x="90" y="180" text-anchor="middle" font-size="11" fill="#0284C7" font-weight="600">知识库</text>
+  <text x="220" y="170" text-anchor="middle" font-size="11" fill="#0284C7" font-weight="600">检索增强</text>
+  <text x="350" y="180" text-anchor="middle" font-size="11" fill="#0284C7" font-weight="600">生成</text>
+  <!-- Bottom flow -->
+  <rect x="80" y="210" width="240" height="50" rx="10" fill="#FFFFFF" stroke="#0EA5E9" stroke-width="1.5" opacity="0.7"/>
+  <text x="200" y="232" text-anchor="middle" font-size="11" fill="#0284C7" font-weight="600">检索 → 增强 → 生成</text>
+  <text x="200" y="248" text-anchor="middle" font-size="9" fill="#0284C7" opacity="0.7">Retrieval-Augmented Generation</text>
+</svg>

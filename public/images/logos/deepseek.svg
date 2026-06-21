@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#F5F5F5"/>
+  <path d="M60 28 C48 28 38 38 38 50 C38 58 42 64 48 68 L46 76 L54 72 C56 73 58 73 60 73 C72 73 82 63 82 50 C82 38 72 28 60 28 Z" fill="#4D6BFE"/>
+  <path d="M60 28 C48 28 38 38 38 50 C38 58 42 64 48 68 L46 76 L54 72 C56 73 58 73 60 73 C72 73 82 63 82 50 C82 38 72 28 60 28 Z" fill="url(#deepseekGrad)"/>
+  <circle cx="52" cy="48" r="3" fill="#FFFFFF"/>
+  <circle cx="68" cy="48" r="3" fill="#FFFFFF"/>
+  <path d="M50 58 Q60 64 70 58" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <defs>
+    <linearGradient id="deepseekGrad" x1="38" y1="28" x2="82" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D6BFE"/>
+      <stop offset="1" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+</svg>

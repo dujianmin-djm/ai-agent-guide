@@ -1,0 +1,37 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="promptBg" x1="0" y1="0" x2="400" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE4E6"/>
+      <stop offset="1" stop-color="#FECDD3"/>
+    </linearGradient>
+    <linearGradient id="promptCore" x1="160" y1="100" x2="240" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F43F5E"/>
+      <stop offset="1" stop-color="#E11D48"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="20" fill="url(#promptBg)"/>
+  <!-- Chat bubble -->
+  <path d="M120 90 L280 90 C290 90 296 96 296 106 L296 170 C296 180 290 186 280 186 L200 186 L170 210 L170 186 L120 186 C110 186 104 180 104 170 L104 106 C104 96 110 90 120 90 Z" fill="url(#promptCore)"/>
+  <text x="200" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Prompt</text>
+  <!-- Structure blocks -->
+  <g>
+    <rect x="40" y="60" width="50" height="24" rx="6" fill="#FFFFFF" stroke="#F43F5E" stroke-width="1.5"/>
+    <text x="65" y="76" text-anchor="middle" font-size="10" fill="#E11D48" font-weight="600">角色</text>
+    <line x1="90" y1="80" x2="120" y2="100" stroke="#F43F5E" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <g>
+    <rect x="310" y="60" width="50" height="24" rx="6" fill="#FFFFFF" stroke="#F43F5E" stroke-width="1.5"/>
+    <text x="335" y="76" text-anchor="middle" font-size="10" fill="#E11D48" font-weight="600">任务</text>
+    <line x1="310" y1="80" x2="280" y2="100" stroke="#F43F5E" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <g>
+    <rect x="40" y="216" width="50" height="24" rx="6" fill="#FFFFFF" stroke="#F43F5E" stroke-width="1.5"/>
+    <text x="65" y="232" text-anchor="middle" font-size="10" fill="#E11D48" font-weight="600">上下文</text>
+    <line x1="90" y1="220" x2="120" y2="190" stroke="#F43F5E" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <g>
+    <rect x="310" y="216" width="50" height="24" rx="6" fill="#FFFFFF" stroke="#F43F5E" stroke-width="1.5"/>
+    <text x="335" y="232" text-anchor="middle" font-size="10" fill="#E11D48" font-weight="600">示例</text>
+    <line x1="310" y1="220" x2="280" y2="190" stroke="#F43F5E" stroke-width="1.5" opacity="0.4"/>
+  </g>
+</svg>

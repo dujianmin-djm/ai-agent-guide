@@ -1,0 +1,13 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#F5F5F5"/>
+  <path d="M60 30 L82 42 L82 66 C82 78 72 86 60 90 C48 86 38 78 38 66 L38 42 Z" fill="#4285F4"/>
+  <path d="M60 30 L82 42 L82 66 C82 78 72 86 60 90 C48 86 38 78 38 66 L38 42 Z" fill="url(#googleGrad)" opacity="0.3"/>
+  <path d="M50 56 L58 64 L72 50" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <defs>
+    <linearGradient id="googleGrad" x1="38" y1="30" x2="82" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34A853"/>
+      <stop offset="0.5" stop-color="#4285F4"/>
+      <stop offset="1" stop-color="#EA4335"/>
+    </linearGradient>
+  </defs>
+</svg>

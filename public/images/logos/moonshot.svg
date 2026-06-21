@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#F5F5F5"/>
+  <circle cx="60" cy="60" r="30" fill="#1F1F1F"/>
+  <circle cx="60" cy="60" r="30" fill="url(#moonshotGrad)"/>
+  <path d="M44 60 C44 50 52 44 60 44 C68 44 76 50 76 60 C76 64 74 68 72 70 L74 76 L66 72 C64 73 62 73 60 73 C52 73 44 68 44 60 Z" fill="#FFFFFF"/>
+  <circle cx="54" cy="58" r="2.5" fill="#1F1F1F"/>
+  <circle cx="66" cy="58" r="2.5" fill="#1F1F1F"/>
+  <defs>
+    <linearGradient id="moonshotGrad" x1="30" y1="30" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3D3D3D"/>
+      <stop offset="1" stop-color="#1F1F1F"/>
+    </linearGradient>
+  </defs>
+</svg>

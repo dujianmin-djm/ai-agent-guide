@@ -1,0 +1,21 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#F5F5F5"/>
+  <path d="M60 28 L88 44 L88 76 L60 92 L32 76 L32 44 Z" fill="#FF7000"/>
+  <path d="M60 28 L88 44 L88 76 L60 92 L32 76 L32 44 Z" fill="url(#mistralGrad)"/>
+  <rect x="48" y="48" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="56" y="48" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="64" y="48" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="48" y="56" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="56" y="56" width="8" height="8" fill="#1A1A1A"/>
+  <rect x="64" y="56" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="48" y="64" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="56" y="64" width="8" height="8" fill="#FFFFFF"/>
+  <rect x="64" y="64" width="8" height="8" fill="#FFFFFF"/>
+  <defs>
+    <linearGradient id="mistralGrad" x1="32" y1="28" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFA500"/>
+      <stop offset="0.5" stop-color="#FF7000"/>
+      <stop offset="1" stop-color="#FF2D00"/>
+    </linearGradient>
+  </defs>
+</svg>

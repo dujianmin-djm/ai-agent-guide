@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#F5F5F5"/>
+  <path d="M60 28 L88 44 L88 76 L60 92 L32 76 L32 44 Z" fill="#615CED"/>
+  <path d="M60 28 L88 44 L88 76 L60 92 L32 76 L32 44 Z" fill="url(#alibabaGrad)"/>
+  <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">通</text>
+  <defs>
+    <linearGradient id="alibabaGrad" x1="32" y1="28" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B68EE"/>
+      <stop offset="1" stop-color="#615CED"/>
+    </linearGradient>
+  </defs>
+</svg>
