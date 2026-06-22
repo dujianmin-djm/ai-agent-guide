@@ -56,7 +56,7 @@ function goToSlide(idx: number) {
       <div class="text-center lg:text-left">
         <p class="animate-fade-up inline-flex items-center gap-2 rounded-full border border-ink-200 bg-white/80 px-4 py-1.5 text-sm font-medium text-ink-600 shadow-apple-sm backdrop-blur-sm">
           <span class="flex h-2 w-2 rounded-full bg-emerald-400" />
-          面向金蝶云苍穹开发者的 AI 实践指南
+          面向金蝶实施开发人员的 AI 实践指南
         </p>
 
         <h1 class="animate-fade-up mt-6 text-display-lg font-semibold leading-tight tracking-tight text-ink-800" style="animation-delay: 0.1s">

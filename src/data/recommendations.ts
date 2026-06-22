@@ -74,7 +74,7 @@ export const scenarios: Scenario[] = [
         modelName: 'GLM 5.2',
         vendor: '智谱 AI',
         region: 'domestic',
-        reason: '编码能力强，其他综合能力均衡，中文理解优秀，支持私有化部署，适合政企客户。',
+        reason: '编码能力强，综合能力均衡，中文理解优秀，支持私有化部署，适合政企客户。',
         pricing: '￥5 / ￥5 per M tokens',
       },
       {
@@ -97,7 +97,7 @@ export const scenarios: Scenario[] = [
     bestPick: {
       modelName: 'DeepSeek V4 Pro',
       vendor: '深度求索',
-      reason: '编码能力跻身世界第一梯队，价格仅为 Claude 的 1/30，国内直连，是苍穹开发工程师的日常首选。',
+      reason: '编码能力跻身第一梯队，价格仅为 Claude 的 1/30，国内直连，是苍穹开发工程师的日常首选。',
     },
   },
   {
