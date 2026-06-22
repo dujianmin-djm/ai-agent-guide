@@ -32,9 +32,9 @@ function getRankBadge(rank: number) {
         <!-- Header -->
         <div class="mx-auto max-w-3xl text-center">
           <p class="section-label">场景化推荐</p>
-          <h1 class="mt-3 text-display-lg font-semibold text-ink-800">按使用场景，选最强模型</h1>
+          <h1 class="mt-3 text-display-lg font-semibold text-ink-800">按使用场景选择最合适的模型</h1>
           <p class="mt-5 text-lg leading-relaxed text-ink-600">
-            不同场景对模型能力的要求差异巨大。本页针对金蝶开发工程师与实施顾问的 8 大高频场景，分别给出国外与国内模型的排名推荐，并标注每款模型的核心优势与价格档位，帮助你精准选型。
+            不同场景对模型能力的要求差异巨大。本页针对金蝶开发工程师与实施顾问的 8 大高频场景，分别给出国外与国内模型的排名推荐，并标注每款模型的核心优势与价格档位，帮助你精准选型。（排名更新日期：2026年6月）
           </p>
         </div>
 

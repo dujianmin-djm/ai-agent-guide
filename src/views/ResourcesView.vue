@@ -23,7 +23,7 @@ function downloadFile(filename: string) {
           <p class="section-label">资源下载</p>
           <h1 class="mt-3 text-display-lg font-semibold text-ink-800">随项目附带的原始资源</h1>
           <p class="mt-5 text-lg leading-relaxed text-ink-600">
-            以下资源均来自金蝶官方外发的文件，可按需在公司内部共享或纳入知识库。
+            以下资源均来自金蝶官方外发的文件，可按需下载查看。
           </p>
         </div>
 
