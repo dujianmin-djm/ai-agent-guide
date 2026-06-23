@@ -120,8 +120,8 @@ export const setupDetails = [
     icon: '☁️',
     items: [
       '确保有可访问的金蝶云苍穹开发环境',
-      '建议安装星瀚环境，亲测AI套件环境部分接口调用报错',
-      '踩坑：环境须有开发服务运行时-独立版、标准业务API-使用许可',
+      '建议安装星瀚环境，亲测 AI 套件（原星空旗舰版）环境官方 jar 包部分接口调用报错',
+      '环境须有许可应用组（踩坑）：开发服务运行时-独立版、标准业务API - 使用许可',
       '准备 JDK（项目已有 JDK 即可）',
       '了解苍穹环境的基本目录结构',
     ],
@@ -137,7 +137,7 @@ export const setupDetails = [
       '找到本地苍穹开发环境目录',
       '将 bos-designer-ai-5.0.1-dev.jar 复制到 /mservice-cosmic/lib/bos',
       '重启苍穹服务，使 API 生效',
-      'AI套件环境R202605.001版本经测试重启后jar包被重置删除，可放到 /apppackage-cosmic/bos后重试',
+      'AI套件环境 R202605.001 版本经测试重启后 jar 包被重置删除，可放到 /apppackage-cosmic/bos后重试',
     ],
   },
   {
@@ -167,6 +167,7 @@ export const setupDetails = [
       '解压 cosmic-dev-skill.zip',
       '将 cosmic-dev 文件夹复制到 ~/.qoderwork/skill',
       '重启 QoderWork，即可在技能列表看到 cosmic-dev',
+      '和 AI 对话，了解苍穹技能包和如何初始化，如‘深度解析cosmic-dev这个技能包，并说明如何初始化连接本地苍穹服务’',
     ],
   },
 ]
@@ -198,7 +199,7 @@ export const downloadResources = [
   },
   {
     title: 'bos-open-v3-core-8.0.jar',
-    desc: '苍穹开发核心依赖包。',
+    desc: '苍穹开发核心依赖包。（环境更新到最新版本已有同名包，似乎用不到？）',
     ext: 'jar',
     size: '429 KB',
     filename: 'bos-open-v3-core-8.0.jar',

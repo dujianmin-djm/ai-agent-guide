@@ -1,0 +1,5 @@
+<!-- 1. Claude (Anthropic) - 官方橙色风格 -->
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#F26D3D"/>
+  <path d="M35 45 H55 L65 75 L75 45 H95" stroke="white" stroke-width="11" stroke-linecap="round" fill="none"/>
+</svg>

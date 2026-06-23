@@ -21,7 +21,7 @@ const tips = [
   {
     icon: '⚡',
     title: '高频调用选 Flash/Lite 版本',
-    content: '不是所有任务都需要旗舰模型。代码补全、简单问答用 DeepSeek V4 Flash 或 GLM 5.2 Air，响应快、价格极低。把旗舰模型留给真正复杂的任务，整体成本能再降一半。',
+    content: '不是所有任务都需要旗舰模型。代码补全、简单问答用 DeepSeek V4 Flash，响应快、价格极低。把旗舰模型留给真正复杂的任务，整体成本能再降一半。',
   },
 ]
 
@@ -152,7 +152,7 @@ const precautions = [
               <div class="text-xs font-semibold uppercase tracking-wide text-emerald-700">TL;DR · 太长不看版</div>
               <h2 class="mt-1 text-2xl font-semibold text-ink-800">首推性价比国产 DeepSeek V4 Pro</h2>
               <p class="mt-3 text-base leading-relaxed text-ink-700">
-                如果你是第一次用 AI Agent，预算有限、不想折腾梯子、追求丝滑体验——<strong class="text-emerald-700">DeepSeek V4 Pro 是你的不二之选</strong>。编码能力跻身第一梯队（前20），价格仅为 Claude 的 1/30，国内直连、支付宝充值、对苍穹业务术语友好。配合 cosmic-dev 技能包，可搞定一般的苍穹平台开发任务。如果非金蝶二开而是进行复杂架构设计时可考虑 GLM5.2 或者国外顶尖大模型。
+                如果你是首次接触 AI Agent 的开发者，且预算有限、无稳定梯子，<strong class="text-emerald-700">DeepSeek V4 Pro 无疑是性价比最优解</strong>。编码能力跻身第一梯队（前20），价格仅为 Claude 的 1/30，国内直连、支付宝充值、对苍穹业务术语友好。配合 cosmic-dev 技能包，可覆盖大多数的苍穹平台常规开发任务。如果非金蝶二开而是进行复杂架构设计时可考虑 GLM5.2 或者国外顶尖大模型。
               </p>
               <p class="mt-2 text-base leading-relaxed text-ink-700">
                 <strong class="text-red-600">不要盲目迷信AI，尤其是在金蝶这类封闭式、拥有完整生态体系的开发环境中</strong>。即便配备了苍穹技能包，AI给出的答案也不一定准确，有时甚至会出现“一本正经地胡说八道”的情况。我们需要保持自己的判断力，重点考量大模型自身的知识库、提示词准确性、上下文长度限制、和多模态能力等因素。

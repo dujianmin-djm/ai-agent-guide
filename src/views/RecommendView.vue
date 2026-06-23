@@ -237,9 +237,9 @@ function getRankBadge(rank: number) {
         <div class="mt-16 overflow-hidden rounded-apple-xl bg-ink-800 p-8 text-white shadow-apple-lg md:p-12">
           <div class="mx-auto max-w-3xl text-center">
             <div class="flex h-14 w-14 mx-auto items-center justify-center rounded-2xl bg-accent-500 text-2xl">💡</div>
-            <h3 class="mt-5 text-display-sm font-semibold">想看一线开发者的真实使用感受？</h3>
+            <h3 class="mt-5 text-display-sm font-semibold">开发者的真实使用感受</h3>
             <p class="mt-4 text-base leading-relaxed text-ink-300">
-              选型不仅要看跑分，更要看真实场景下的体验。下一页是一位金蝶开发工程师在 cosmic-dev + DeepSeek V4 Pro 组合下的真实使用感受与性价比分析。
+              选型不仅要看跑分，更要看真实场景下的体验。下一页是我在 cosmic-dev + DeepSeek V4 Pro 组合下的真实使用感受与性价比分析。
             </p>
             <router-link to="/developer-notes" class="btn-primary mt-6 inline-flex">
               阅读开发者手记

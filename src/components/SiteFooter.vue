@@ -70,7 +70,7 @@ const footerLinks = [
           ©DJM 宝蝶信息技术 {{ year }} · AI Agent 实践指南
         </p>
         <p class="text-sm text-ink-400">
-          基于 Vue 3 + Vite + Tailwind CSS 构建
+          基于 Vue 3 + Vite + TypeScript + Tailwind CSS 构建
         </p>
       </div>
     </div>

@@ -89,7 +89,7 @@ const learningPath = [
         <p class="section-label">AI 基础概念</p>
         <h2 class="mt-3 text-display-md font-semibold text-ink-800">从零开始，理解 AI 的核心语言</h2>
         <p class="mt-5 text-lg leading-relaxed text-ink-600">
-          无论你是开发工程师还是实施顾问，这几个概念是踏入 AI 世界的第一步。我们用最通俗的方式，帮你建立完整的认知框架。
+          无论你是开发工程师还是实施顾问，这几个概念是踏入 AI 世界的第一步。下文用最通俗的方式，帮你建立完整的认知框架。
         </p>
       </div>
 
@@ -204,7 +204,7 @@ const learningPath = [
             <h4 class="mt-4 text-lg font-semibold text-ink-800">{{ item.title }}</h4>
             <p class="mt-2 text-sm leading-relaxed text-ink-600">{{ item.desc }}</p>
             <!-- Arrow connector -->
-            <div v-if="index < learningPath.length - 1" class="absolute -right-3 top-1/2 hidden -translate-y-1/2 text-ink-300 md:block">
+            <div v-if="index < learningPath.length - 1" class="absolute -right-6 top-1/2 hidden -translate-y-1/2 text-ink-300 md:block">
               <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
               </svg>
