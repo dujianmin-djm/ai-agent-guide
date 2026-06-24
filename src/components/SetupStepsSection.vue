@@ -43,7 +43,6 @@ const quickLinks = [
           按照以下顺序完成环境搭建，即可在个人电脑上调用 cosmic-dev 技能进行 AI 驱动开发。
         </p>
       </div>
-
       
       <!-- Setup steps — Apple style timeline -->
       <div :class="['relative', showHeader ? 'mt-16' : 'mt-0']">
@@ -106,7 +105,7 @@ const quickLinks = [
           <div>
             <h3 class="text-display-sm font-semibold text-ink-800">验证是否成功</h3>
             <p class="mt-3 text-base leading-relaxed text-ink-600">
-              在 QoderWork 中输入指令“/cosmic-dev”。若系统返回技能欢迎信息且配置读取成功，则表明技能包已部署就绪。随后，请初始化与苍穹服务的连接，并通过 AI 调用技能包接口进行连通性测试。若调用成功，即表示运行环境已完全就绪。随后可上传需求文档或直接描述需求开始建模。
+              在 QoderWork 中输入指令“/cosmic-dev”，若 AI 工具返回技能信息，表明技能包已部署就绪。随后，初始化与本地苍穹服务的连接，并通过 AI 对话让其调用技能包中的接口进行连通性测试。若调用成功，即表示运行环境已完全就绪。随后可上传需求文档或直接描述需求开始建模。
             </p>
           </div>
         </div>
